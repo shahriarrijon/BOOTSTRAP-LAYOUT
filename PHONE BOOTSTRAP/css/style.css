@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.collapse{
+    justify-content: end;
+}
+
+/*Header Style*/
+
+header{
+    background-image: url(../img/Header/HeyU-Landing-Page-Symu_co.gif);
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: transparent !important;
+}
+.navbar-nav  a{
+    color: #fff !important;
+}
+.navbar-nav a:hover{
+    color: #b2b2b2 !important;
+    transition: 1.0s !important;
+}
+
+.navbar-toggler-icon{
+    width: 20px;
+    vertical-align: baseline;
+}
+.navbar-toggler{
+    background-color: #fff !important;
+}
+.navbar-nav .nav-link {
+    padding-right: 40px !important;
+}
+@media (max-width: 575px) and (min-width: 300px){
+    .navbar-nav a{
+        width: 10%;
+        font-size: 15px;
+    }
+}
+/* Phone */
+.container {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.container button{
+    background-color: #ffffff;
+    border-radius: 20px;    
+}
+.container{
+    max-width: 1100px;
+}
+.container .btn{
+    color: #e62f34;
+    margin-top: 30px;
+}
+.phone img{
+    width: 70%;
+}
+.btn:hover{
+    transition: 2.03ms ease-out;
+    background-color: #ffc6c8 !important;
+}
+@media (max-width: 575px) and (min-width: 300px){
+    .phone{
+        width: 80%;
+        margin-top: 20px;
+        
+    }
+    .col-sm-6 h2{
+        text-align: center;
+        font-size: 40px !important;
+    }
+    .col-sm-6 p{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .col-sm-6 .btn{
+        margin-left: 28%;
+    }
+}
+/* meseeng styel*/
+
+/* .msg{
+    margin-top: 20px;
+} */
+
+@media (max-width: 576px)  and (min-width: 200px){
+    .ft{
+        margin-top: 100px !important;
+        width: 90%;
+    }
+}
+@media (max-width: 575px) and  (min-width: 300px){
+    .po{
+        margin-top: 70px;
+        width: 55% !important;
+    }
+}
+
+
+@media (max-width: 575px) and  (min-width: 300px){
+    .img-fluid{
+        width: 60%;
+    }
+}
+
+.lt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items:center ;
+}
+.lt div h3{
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 40px;
+   
+}
+.container .row{
+    position: relative !important;
+}
+.po{
+    position: absolute !important;
+    top: 9%;
+    left: 16%;
+}
+.msg{
+    margin-bottom: 15% !important;
+}
+
+/* 2 pictures style*/
+
+
+
+.keep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.keep h1{
+    font-size: 40px !important;
+    font-weight: 900;
+}
+.contact{
+    position: absolute;
+    right: 100px;
+    top: 60px;
+}
+@media (max-width: 988px) and (min-width: 575px){
+    .contact{
+        margin-top: 85px;
+    }
+
+}
+@media(max-width: 755px) and (min-width: 400px){
+    .contact img{
+        width: 80% !important;
+    }
+}
+@media (max-width: 575px) and (min-width: 300px){
+    .keep{
+        margin-bottom: 50px;
+        padding: 10px 50px;
+    }
+}
+@media (max-width: 575px) and (min-width: 300px){
+    .contact img{
+        margin-top: 312px;
+        margin-left: 80px;
+        width: 100% !important;
+    }
+   
+}
+
+
+
+/*  What people sat */
+.what{
+    margin-top: 10px;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.card{
+    width: 80%;
+    display: inline-block;
+}
+.card-title{
+    font-family: myriad pro;
+    color: #a3a3a3;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 5px 10px 10px;
+}
+.card-text{
+    padding: 0 10px;
+    color: #e62f34;
+    font-weight: 600;
+}
+.card:hover{
+    transition: 2.0s;
+    box-shadow: 1px 13px 21px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 13px 21px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 13px 21px 1px rgba(0,0,0,0.75);
+}
+
+.what p > img{
+    margin-top: 10px;
+    color: #000;
+    padding: 0 5px;
+}
+.what{
+    margin-bottom: 100px;
+}
+.what .col-sm-4  > p{
+    padding: 10px;
+}
+
+
+@media (max-width: 700px) and (min-width: 300px){
+    .card-body{
+        width: 110%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        background-color: #f8f8f8;
+        opacity: 0.9;
+    }
+    .card h5{
+        color: #000;
+    }
+}
+
+
+/* HeyU sStyle*/
+
+.smg{
+    margin-top: 165px;
+}
+
+.camera{
+    margin-top: 155px;
+}
+
+
+ .smg img{
+    width: 18%;
+}
+.smg{
+    width: 35%;
+}
+
+.camera img{
+    width: 24%;
+}
+
+.HeyU-phone{
+    width: 40% !important;
+}
+
+.camera{
+    width: 25%;
+}
+
+.section h5{
+    color: #ffffff;
+}
+.section P{
+    color: #f2a2b2;
+}
+.section{
+    background-image: url(../img/HeyU-middle/bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+@media (max-width: 575px) and (min-width: 300px){
+    .abc{
+        background-size: cover !important;
+    }
+    .iphone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .smg{
+        width: 45% !important;
+    }
+    .smg h5{
+        font-size: 30px;
+    }
+    .camera{
+        width: 40% !important;
+        margin-bottom: 20px;      
+    }
+    .camera h5{
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 1140px) and (min-width: 975px){
+    .HeyU-phone{
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 575px) and (min-width: 300px){
+    .section img{
+       width: 100% !important;
+       
+    }
+}
+
+@media (max-width: 575px) and (min-width: 300px){
+    .HeyU-phone{
+       width: 70% !important;
+       margin-top: 60px;
+       
+    }
+}
+
+
+
+/*Subscribe styel*/
+
+.center p{
+    color: #a3a3a3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 20px 50px;
+}
+
+.border{
+    background: #f8f8f8 !important;
+    justify-content: center !important;
+    width: 40%;
+    height: 20%;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+.bn{
+    position: relative;
+    left: -70px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: #e22339;
+    padding: 9px 30px; 
+
+}
+@media(max-width: 575px) and (min-width: 300px){
+    .border{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .bn{
+        width: 50%;
+        background-color: #b2b2b2;
+        float: right;
+        color: #ffffff;
+        
+    }
+}
+/*Downlode section*/
+.H-center{
+    text-align: center;
+}
+.H-center img{
+    width: 20%;
+}
+.H-center h2{
+    font-size: 40px;
+    font-family: myriad;
+    font-weight: 900;
+}
+.H-center p{
+    margin-top: 15px;
+    font-family: myriad pro;
+    font-size: 18px;
+    color: #a3a3a3;
+}
+
+.app{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* footer Style */
+
+.english{
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+}
+.english a{
+    text-decoration: none;
+}
+.english a{
+   padding: 10px 20px 10px;
+   color: #000;
+}
+.english a:hover{
+    color: #e22339;
+    transition: 2.0s;
+}
+.english select{
+    position: absolute;
+    left: 85%;
+    border-radius: 20px;
+    width: 10%;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+@media (max-width: 575px) and (min-width: 300px){
+    .english{
+        width: 20% !important;
+        flex-direction: column-reverse;
+        
+    }
+    .contant{
+        background-color: #b2b2b2;
+    }
+    .english select{
+        width: 10%;
+        
+        margin-top: 10px;
+       padding: 0px 20px;
+    }
+}
+ 
+

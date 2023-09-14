@@ -1,0 +1,308 @@
+/* nav .container-fluid{
+    width: 90%;
+} */
+@media (min-width: 299px){
+    .none .position{
+        top: 15%;
+        position: absolute;
+        background-color: #f7b822;
+        width: 64px;
+        text-align: center;
+        border-radius: 100%;
+        padding: 17px;
+        left: 35%;
+        height: 60px;
+       
+    }
+
+}
+@media (min-width: 300px) and ( max-width: 575px){
+    .model{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 100% !important
+        ;
+    }
+    .f1,.f2{
+        justify-content: space-around;
+    }
+}
+    
+@media (min-width: 300px) and ( max-width: 910px){ 
+    .demo{
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: center;
+
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    }
+     @media (min-width: 300px) and ( max-width: 991px){
+        .about .row{
+            display: flex;
+            flex-direction: column-reverse!important;
+            
+        }
+            
+        }
+    
+    
+ 
+.nav-item{
+    padding-left: 45px;
+}
+header{
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav .bg-light{
+    background-color: transparent;
+}
+.nav-item{
+    font-weight: bold;
+}
+.align{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 85px;
+}
+.services .col-lg-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body p {
+    color: #656565;
+}
+.btn-primary{
+    background-color: #feba17 !important;
+    color: white !important;
+    border-color:  #feba17 !important ;
+}
+.about p,h4{
+    text-align: justify;
+    color: white;
+
+}
+.none{
+    position: relative;
+}
+.none .position{
+    top: 30%;
+    position: absolute;
+    background-color: #f7b822 !;
+    width: 64px;
+    text-align: center;
+    border-radius: 100%;
+    padding: 17px;
+    left: 40%;
+    height: 60px;
+    display: none;
+}
+.none:hover .position{
+    top: 30% !important;
+    position: absolute;
+    background-color: #f7b822;
+    width: 64px;
+    text-align: center;
+    border-radius: 100%;
+    padding: 17px;
+    left: 40% !important;
+    height: 60px;
+    display: block;
+    opacity: 0.9;
+    
+}
+.who{
+    background-image: url(../img/who.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.who h2 {
+    color: white;
+
+}
+.who p{
+    color: white;
+
+}
+.one{
+    background-image: url(../img/picture3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.two{
+    background-image: url(../img/picture4\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.three{
+    background-image: url(../img/picturees5\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.child{
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    border-radius: 12px;
+    width: 85%;
+    background-color:#f7b822 ;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.two:hover .baby{
+    /* position: absolute;
+    top: 5%;
+    height: 90%;
+    border-radius: 12px;
+    width: 85%;
+    background-color:#f7b822 ;
+    opacity: 0.8; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* color: white; */
+    display: flex;
+
+}
+.three:hover .baby{
+    display: flex;
+}
+.text:hover{
+    color: white !important;
+}
+.baby{
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    border-radius: 12px;
+    width: 85%;
+    background-color:#f7b822 ;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: none;
+}
+.child p{
+    border: 2px solid white;
+    padding: 20px;
+
+}
+.baby p{
+    
+        border: 2px solid white;
+        padding: 20px;
+}
+.one .text{
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    
+}
+.two .text{
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+.three .text{
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+.text {
+    color: white;
+    z-index: 900000;
+}
+.box{
+    width: 55%;
+    border: 1px solid black;
+    display: flex;
+}
+
+
+.big{
+    background-image: url(../img/big\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.form{
+    background-color: #faba20;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.form .form-control{
+    height: 58px;
+}
+.first-footer{
+    background-color: #3d3d3c;
+    opacity: 0.9;
+}
+footer .icon p{
+    background-color: #2c2c2b;
+    width: 26px;
+    border-radius: 50%;
+    text-align: center;
+    height: 26px;
+    margin: 5px;
+}
+footer div p .fa-brands{
+    color: white;
+}

@@ -1,0 +1,189 @@
+/*About Our Shop media*/
+@media (max-width: 575px) and (min-width: 300px){
+  
+    .Our-Shop{
+        flex-direction: column;
+        width: 100%;
+    }
+    .bg-about img{
+        width: 60% !important;
+        margin: 10px 60px;
+        justify-content: center !important;
+    }
+    .btn2{
+        width: 100% !important;
+    }
+}
+@media (max-width: 575px) and (min-width: 300px){
+    .box-1{
+        flex-direction: column !important;
+        text-align: center;
+        width: 100%;
+    }
+    .box-2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        margin: 10px;
+        width: 95% !important;
+    }
+    .card .img-fluid{
+        margin: 0 auto !important;
+    }
+
+    .btn-3{
+        width: 40% !important;
+    }
+    
+/*Best Quality media */
+    
+
+@media (max-width: 575px) and (min-width: 300px){
+    .best-quality{
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .best-quality p{
+        margin:  0 !important;
+        font-size: 20px !important;
+        text-transform: capitalize;
+        text-align:  start !important;
+        line-height: 2 !important;
+    }
+   .best-text{
+        width: 100% !important;
+    }
+    .best-text > h1{
+        font-size: 50px !important;
+    }
+    .best-text{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .best-quality b{
+        font-weight: bold !important;
+    }
+    .glas {
+        margin:  0 !important;
+        padding:  0 !important;
+        width: 100% !important;
+    }
+    
+}
+
+/* Book Glass media */
+
+    
+@media (max-width: 575px) and (min-width: 300px){
+    .book-section{
+        width: 100% !important;
+        flex-direction: column;
+        display: flex;
+    }
+    .book-section .img-fluid{
+        width: 100% !important;
+        height: 100% !important;
+        flex-wrap: wrap !important;
+    }
+    .book-our p{
+        width: 100% !important;
+        font-size: 50px !important;
+        text-align: center;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .btn-4{
+        display: block;
+        width: 38% !important;
+        margin-bottom: 20px !important;
+    }
+}
+@media (max-width: 1300px) and (min-width: 600px){
+    .book-section  img{
+        display: none !important;
+        background: scroll !important;
+    }
+}
+/* Buy Your Stylis media*/
+@media (max-width: 575px) and (min-width: 300px){
+    .buy-p{
+        width: 100% !important;
+    }
+    .btn-5{
+        width: 30% !important;
+    }
+}
+
+/* Subscribe-new section media*/
+@media (max-width: 575px) and (min-width: 300px){
+    .field-group{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .field-text h1{
+       text-align: center;
+       font-size: 40px !important;
+    }
+    .field-group input{
+        width: 100% !important;
+    }
+    .btn-6{
+        width: 60% !important;
+        font-size: 14px !important;
+    }
+    hr{
+        width: 100% !important;
+    }
+}
+
+/* Subscribe-new media*/
+@media (max-width: 575px) and (min-width: 300px){
+   .subscribe-new{
+    display: flex;
+    flex-direction: column-reverse !important;
+    width: 80%;
+   }
+  
+   .links{
+    width: 100% !important;
+   }
+   .contact{
+    width: 100% !important;
+   }
+   .enter-youremail{
+    width: 100% !important;
+   }
+   .enter-youremail h2{
+    width: 20%;
+   }
+   .btn-7{
+    font-size: 12px;
+    width: 20% !important;
+    margin-left: -290px;
+    margin-top: 75px !important;
+   }
+}
+
+}
+@media (max-width: 1490px) and (min-width: 570px){
+    .btn-7{
+        margin-left: -270px;
+        background-color: #bcbcbc !important;
+        color: black !important;
+    }
+}
+@media (max-width: 1490px) and (min-width: 570px){
+    .enter-youremail h2{
+        width: auto;
+        /* background-color: aqua !important; */
+    }
+}
+@media (max-width: 575px) and (min-width: 300px){
+    .bg-color{
+        height: auto !important;
+        
+    }
+   
+}

@@ -1,0 +1,414 @@
+
+
+.btn-primary{
+    background-color: orangered !important;
+    border-color: orangered !important;
+}
+
+/* nav} */
+nav{
+    background-color: #ffffff !important;  
+}
+nav i {
+   
+    font-size: 35.99pt !important;
+    font-weight: bold !important;
+}
+.nav-item {
+    padding-left: 20px;   
+}
+.nav-link{
+    color: #404040 !important;
+    font-weight: bold;
+    height: 100px;
+    padding-top: 35px !important;  
+}
+.nav-link:hover{
+    background-color: orangered !important;
+    color: #ffffff !important;
+}
+ .navbar-nav .nav-item.active .nav-link{
+    background-color: orangered !important;
+    color: #ffffff !important;
+    
+}
+ /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-nav .nav-link{
+        padding-left: 10px !important;
+    }
+}
+    
+    
+    
+    
+
+
+
+
+/* banner */
+.banner {
+    background-image: url(../img/rijon.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;}
+ .banner .banner-content{
+    margin-top: 265px !important
+    ;
+    margin-left: 100px !important;
+}
+.banner  h1{
+    font-size: 36pt;
+    color: white;
+}
+.banner  p{
+    font-size: 12pt;
+    color: white;
+}
+@media (min-width: 576px){.banner .col-sm-6{
+    margin-left: 5px; ;
+}
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+/* field */
+.text{
+    width: 70% !important;
+}
+ .filed{
+    padding-top: 90px !important;
+    margin-bottom: 60px;
+ }
+.filed h1{
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+.filed p{
+    font-size: 10pt;
+    font-weight: bold;
+    
+}
+
+.read {
+    padding-top: 50px;
+    padding-left: 285px !important;
+} 
+.read button{
+    width: max-content;
+
+}
+.filed{
+    width: 100%;
+}
+
+ #awsome{
+    margin-top: 50px;
+    background-color:#c3360b;
+}
+ .features{
+    width: 60% !important;
+    height: 0%; 
+     margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    
+
+}
+ .features h1{
+    font-size: 48pt;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+ .features p{ 
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    font-weight: bold;
+
+}
+.user{
+    padding-top: 90px;
+}
+.user i{
+    font-size: 72pt;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    width: 135px;
+}
+.user div{
+    /* width: 35%; */
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.user p{
+    font-size: 12pt;
+    color: white;
+}
+.user h5{
+    font-size: 18pt;
+    color: white;
+}
+
+
+
+
+
+#about{
+    margin-top: 150px;
+    width: 100% !important;
+
+}
+#about .text2{
+    width: 60% !important;
+    height: 0%; 
+     margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+.text2  h1 {
+    font-size: 48pt;
+    color:#c3360b ;
+    text-align: center;
+}
+.text2  p{
+    font-size: 14pt;
+    color: #000000;
+    text-align: center;
+
+
+}
+.bird{
+    margin-top: 64px;
+
+}
+.bird div{
+    padding-left: 85px;
+}
+.bird div h5{
+    font-size: 24pt;
+    color: black;
+    height: 12%;
+    width: 35%;
+    border-bottom: 3px solid #c3360b;
+    margin-bottom: 22px;
+
+}
+.bird div p{
+    margin-bottom: 30px;
+    font-size: 14pt;
+    color: #000000;
+}
+
+
+
+
+
+
+
+#services{
+    margin-top: 50px;
+    
+    background-color:white;
+}
+
+
+
+
+/* picture */
+#pictures .chart{
+
+    padding-top: 140px;
+}
+/* .pictures  img{
+    padding-left: 45px;
+} */
+
+
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* .pictures{
+        width: 1270px;
+    }
+    .pictures .d-flex img{
+        padding-left: 40px;
+    } */
+  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
+
+
+/* team */
+.row{
+    margin-right: 85px;
+}
+.card{
+    margin-right: 20px;
+    margin-left: 30px;
+    padding: 18px;
+}
+.card-body h5{ 
+    text-align: center;
+
+}
+.card-body p{
+    text-align: center;
+}
+.card-body div  {
+    margin-left: auto;
+    justify-content: center;
+}
+.card-body .d-flex p{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-left: 10px;
+    
+}
+.p-sm-5{
+    padding: 7rem !important;
+}
+
+.card-body .d-flex{
+    padding-top: 60px;
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
+
+
+
+/* form */
+
+/* .// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+    .form{
+        width: 1270px;
+    }
+  } */
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+.form{margin-bottom: 40px;
+    
+}
+    
+#form .d-flex{
+    padding-top: 126px;
+}
+
+.form-control{
+    /* margin-left: 185px; */
+    /* width: 1000px; */
+    
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #c3360b
+    ;
+    /* height: 100%; */
+    /* margin-top: 65px !important; */
+}
+
+
+footer.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px!important;
+    /* margin-bottom: 40px !important; */
+}
+footer  .container > p{ 
+    color: white;
+    font-size: 14px;
+
+
+
+}
+footer .container > div p{
+    display: inline-block;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border: 3px solid black;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+footer .container div p i{
+    position: relative;
+    
+}
+footer .container div p .fa-brands{
+    top: 2px;
+    left: 6px;
+
+
+}
+footer .container div  :hover{
+    color: white !important;
+    border-color: white !important;
+}
+footer .container > div p i .active{
+    color: white !important;
+    border-color: white !important;
+
+}
+
+
+
+
